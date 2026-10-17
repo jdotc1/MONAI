@@ -1,3 +1,13 @@
+## Composable deep-learning workflows for medical images
+
+This is a development fork of [MONAI](https://github.com/Project-MONAI/MONAI), a PyTorch-based framework for medical-imaging research. Upstream supplies multidimensional preprocessing, networks, losses, metrics, and training components that can be combined with existing PyTorch code. It is useful for building image-learning experiments with domain-specific data handling and evaluation.
+
+**Contribution to review:** [PR #9177](https://github.com/Project-MONAI/MONAI/pull/9177) proposes propagating failures when a completed download is published to its destination. The contribution concerns download error handling; the linked upstream proposal carries the implementation and review.
+
+Start with the [official installation guide](https://monai.readthedocs.io/en/latest/installation.html) and [tutorials](https://github.com/Project-MONAI/tutorials). This fork follows `dev`, which upstream identifies as unreleased development code. Original package, documentation, and citation links remain below. Review the [branch comparison](https://github.com/Project-MONAI/MONAI/compare/dev...jdotc1:dev) for this checkout.
+
+---
+
 <p align="center">
 <img src="https://raw.githubusercontent.com/Project-MONAI/MONAI/dev/docs/images/MONAI-logo-color.png" width="50%" alt='project-monai'>
 </p>
